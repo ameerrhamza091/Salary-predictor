@@ -46,3 +46,5 @@ Multiple regression algorithms were evaluated during experimentation to select t
 ├── salary_gb_model.pkl     # Pre-trained Gradient Boosting model & feature metadata
 ├── requirements.txt        # Python package dependencies
 └── README.md               # Project documentation
+Deploy this app link 
+https://salary-predictor-2zwgp7mddarnbvxa4vadrc.streamlit.app/
