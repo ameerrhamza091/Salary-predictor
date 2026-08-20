@@ -22,11 +22,11 @@ Multiple regression algorithms were evaluated during experimentation to select t
 | Algorithm | R² Score | RMSE Error | Scaling Required? | Final Decision |
 | :--- | :--- | :--- | :--- | :--- |
 | **Gradient Boosting Regressor** | **~89.5%** | **~$19,417** | ❌ No | **Selected Winner** |
-| Decision Tree Regressor | ~89.5% | ~$19,398 | ❌ No | High Risk of Overfitting |
+| Support Vector Regressor (SVM) | Evaluated | Evaluated | ✅ Yes | Distance-based |
 | Random Forest Regressor | ~88.8% | ~$20,100 | ❌ No | Runner-up |
 | Linear Regression | ~84.6% | ~$23,500 | ❌ No | Baseline |
 
-> **Key Insight:** **Gradient Boosting Regressor** was selected as the deployment model due to its high stability, robust generalization on unseen data, and low variance compared to single Decision Trees.
+> **Key Insight:** **Gradient Boosting Regressor** was selected as the deployment model due to its high stability, robust generalization on unseen data, and ability to handle raw numerical scales effectively.
 
 ---
 
